@@ -58,6 +58,4 @@ public abstract class Parser {
      * @throws Exception if an error occurred.
      */
     public Token nextToken() throws Exception { return scanner.nextToken(); }
-
-
 }

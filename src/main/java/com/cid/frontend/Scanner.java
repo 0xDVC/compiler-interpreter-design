@@ -44,7 +44,6 @@ public abstract class Scanner {
     protected abstract Token extractToken() throws Exception;
 
     /**
-     }
      * Call the source&apos;s currentChar() method.
      * @return the current character from the source.
      * @throws Exception if an error occurred.

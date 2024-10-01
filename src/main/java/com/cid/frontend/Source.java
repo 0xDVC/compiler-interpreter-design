@@ -43,10 +43,12 @@ public class Source {
         else if (line == null) {
             return EOF;
         }
+
         // At end of line?
         else if ((currentPos == -1) || (currentPos == line.length())) {
             return EOL;
         }
+
         // Need to read the next line?
         else if (currentPos > line.length()) {
             readLine();
